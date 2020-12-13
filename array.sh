@@ -1,9 +1,9 @@
 #!bin/bash
 
-echo " PERKY PLZZ ENTER THE CODE "
+echo " PREKY PLZZ ENTER THE CODE "
 read code 
 
-if [ $code == "bcperky" ]; then
+if [ $code == "preky" ]; then
  
 sed '/^#/ d' < /name.txt > /names.txt
 
